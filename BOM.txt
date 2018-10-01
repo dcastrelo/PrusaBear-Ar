@@ -45,3 +45,19 @@ Printed Parts
 6x cable_clip_lcd
 5x cable_clip_round
 3x cable_clip_ziptie
+
+
+
+
+Prusa Extruder parts:
+
+M3x40
+
+1x M3x18
+1x M3x25
+2x M3x30
+Rodamiento 625
+varilla m5x16
+2x M3x40
+2x resortes
+1x M3x20
