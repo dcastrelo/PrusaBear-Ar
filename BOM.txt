@@ -1,0 +1,49 @@
+
+BOM prusa bear-Ar
+
+https://github.com/gregsaun/prusa_i3_bear_upgrade/tree/master/full_upgrade/for_mk3/manual
+
+
+Tools:
+	Macho M5
+
+V-Slot:
+	1x 331mm
+	1x 331mm 
+	1x 290mm
+	2x 359mm
+	2x 370mm
+
+ 4x Black angle corner 
+10x	90 degree joining plate
+89x	Tee-nuts M5
+16x M5x8 screws button head
+63x M5x10 screws button head
+14x M5x12 screws button head
+ 8x M4 gusanitos
+10x	M3x12 allen
+20x Precintos 2.5x100mm
+
+
+
+Printed Parts
+
+1x build_helper_106mm
+2x end_caps	2
+2x end_cap_z_axis
+4x foot
+1x lcd_support_a
+1x lcd_support_b
+1x psu_lower_mount
+2x psu_upper_mount
+4x rod_holder
+1x y_idler
+1x y_motor_mount
+2x z_motor_mount_front
+1x z_motor_mounts
+1x z_tops
+6x cable_clip_lcd
+5x cable_clip_round
+3x cable_clip_ziptie
+
+
