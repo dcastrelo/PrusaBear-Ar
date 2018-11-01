@@ -7,15 +7,21 @@ https://github.com/gregsaun/prusa_i3_bear_upgrade/tree/master/full_upgrade/for_m
 Tools:
 	Macho M5
 
-V-Slot:
-	1x 331mm
-	1x 331mm 
-	1x 290mm
-	2x 359mm
-	2x 370mm
+KIT Hotend Argento / perfiles / Malevo
 
- 4x Black angle corner 
-10x	90 degree joining plate
+V-Slot:
+	Z Axis 
+x	Horizontales	1x 290mm 
+x	Verticales		2x 359mm
+		
+	Y Axis
+	Ancho	2x 370mm
+	Largo	2x 331mm
+		
+	
+
+4x Black angle corner
+10x	90 degree joining plate 
 89x	Tee-nuts M5
 16x M5x8 screws button head
 63x M5x10 screws button head
@@ -24,8 +30,31 @@ V-Slot:
 10x	M3x12 allen
 20x Precintos 2.5x100mm
 
+2x TR8 350mm (salvo que uses motores con Tr8 incorporadas)
+1x ruleman 625
+1x Ruleman correa X
+1x Ruleman correa Y
+2x Polea GT2 16T?
+1x varilla lisa m5 x 16mm (extrusor)
+2x Metro Correa GT2
+3x Lm8Luu
+5x Lm8uu
 
 
+Electronica:
+	1x Motor Nema 17 alto torque (extrusor)
+	2x Motor Nema 17 comun (X e Y)
+	2x Motor Nema 17 Comun para Z (o con TR8 de 350mm)
+	
+	1x Arduino Mega
+	1x Ramps
+	4x Pololu o DRV
+	1x Mosfet cama
+	1x LCD (2004)
+	3x Endstops mecanicos u opticos
+	1x fan 4010 (bueno)
+	1x blower 50mm
+	
 Printed Parts
 
 1x build_helper_106mm
