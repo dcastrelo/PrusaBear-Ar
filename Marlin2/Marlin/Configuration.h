@@ -1,4 +1,4 @@
-/** Prusa i3 DamnPrinter 1.1.9
+/** Prusa Bear-Ar 1.1.9
  * Marlin 3D Printer Firmware
  * Copyright (C) 2016 MarlinFirmware [https://github.com/MarlinFirmware/Marlin]
  *
