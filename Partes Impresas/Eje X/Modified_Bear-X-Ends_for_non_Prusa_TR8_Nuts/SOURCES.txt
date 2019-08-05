@@ -1,0 +1,4 @@
+Sources for Modified Bear-X-Ends for non Prusa TR8 Nuts
+
+Bear Extruder and X axis (http://www.thingiverse.com/thing:3226689)
+Bear X end motor with bearing support (http://www.thingiverse.com/thing:3249583)
