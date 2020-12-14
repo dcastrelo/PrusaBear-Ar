@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<profile name="Argento Bear V2" version="2020-11-17 11:19:46" app="S3D-Software 4.1.2">
+<profile name="Argento Bear V2" version="2020-11-26 21:06:45" app="S3D-Software 4.1.2">
   <baseProfile>Default (modified)</baseProfile>
   <printMaterial>PLA</printMaterial>
   <printQuality>Fast</printQuality>
@@ -45,7 +45,7 @@
   <useSkirt>1</useSkirt>
   <skirtExtruder>0</skirtExtruder>
   <skirtLayers>1</skirtLayers>
-  <skirtOutlines>2</skirtOutlines>
+  <skirtOutlines>3</skirtOutlines>
   <skirtOffset>7</skirtOffset>
   <usePrimePillar>0</usePrimePillar>
   <primePillarExtruder>999</primePillarExtruder>
@@ -90,7 +90,7 @@
     <temperatureNumber>0</temperatureNumber>
     <isHeatedBed>0</isHeatedBed>
     <stabilizeAtStartup>1</stabilizeAtStartup>
-    <setpoint layer="1" temperature="200"/>
+    <setpoint layer="1" temperature="205"/>
   </temperatureController>
   <temperatureController name="Bed">
     <temperatureNumber>0</temperatureNumber>
@@ -101,6 +101,7 @@
   <fanSpeed>
     <setpoint layer="1" speed="0"/>
     <setpoint layer="5" speed="30"/>
+    <setpoint layer="10" speed="60"/>
   </fanSpeed>
   <blipFanToFullPower>1</blipFanToFullPower>
   <adjustSpeedForCooling>1</adjustSpeedForCooling>
@@ -108,7 +109,7 @@
   <minCoolingSpeedSlowdown>20</minCoolingSpeedSlowdown>
   <increaseFanForCooling>1</increaseFanForCooling>
   <minFanLayerTime>45</minFanLayerTime>
-  <maxCoolingFanSpeed>75</maxCoolingFanSpeed>
+  <maxCoolingFanSpeed>100</maxCoolingFanSpeed>
   <increaseFanForBridging>1</increaseFanForBridging>
   <bridgingFanSpeed>100</bridgingFanSpeed>
   <use5D>1</use5D>
@@ -156,7 +157,7 @@
   <solidInfillUnderspeed>0.75</solidInfillUnderspeed>
   <supportUnderspeed>0.8</supportUnderspeed>
   <rapidXYspeed>4800</rapidXYspeed>
-  <rapidZspeed>1002</rapidZspeed>
+  <rapidZspeed>10020</rapidZspeed>
   <minBridgingArea>50</minBridgingArea>
   <bridgingExtraInflation>0</bridgingExtraInflation>
   <bridgingExtrusionMultiplier>1</bridgingExtrusionMultiplier>
@@ -195,12 +196,13 @@
   <singleExtrusionEndpointExtension>0.2</singleExtrusionEndpointExtension>
   <horizontalSizeCompensation>0</horizontalSizeCompensation>
   <autoConfigureMaterial name="PLA">
-    <globalExtruderTemperature>200</globalExtruderTemperature>
+    <globalExtruderTemperature>205</globalExtruderTemperature>
     <globalBedTemperature>60</globalBedTemperature>
     <globalExtrusionMultiplier>1</globalExtrusionMultiplier>
     <fanSpeed>
       <setpoint layer="1" speed="0"/>
       <setpoint layer="5" speed="30"/>
+      <setpoint layer="10" speed="60"/>
     </fanSpeed>
   </autoConfigureMaterial>
   <autoConfigureMaterial name="ABS">
@@ -237,11 +239,11 @@
     <supportInfillPercentage>25</supportInfillPercentage>
   </autoConfigureQuality>
   <autoConfigureQuality name="Medium">
-    <layerHeight>0.28</layerHeight>
-    <topSolidLayers>0</topSolidLayers>
+    <layerHeight>0.2</layerHeight>
+    <topSolidLayers>3</topSolidLayers>
     <bottomSolidLayers>3</bottomSolidLayers>
     <skirtLayers>1</skirtLayers>
-    <infillPercentage>0</infillPercentage>
+    <infillPercentage>10</infillPercentage>
     <supportInfillPercentage>30</supportInfillPercentage>
   </autoConfigureQuality>
   <autoConfigureQuality name="High">
